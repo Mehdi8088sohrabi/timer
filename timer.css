@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+p {
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+button {
+    margin: 5px;
+    width: 65px;
+    height: 40px;
+    font-size: 16px;
+}
+
+input{
+    width: 100px;
+    height: 60px;
+    outline: none;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align:center;
+    margin: 0px 65px;
+    font-size: 30px;
+}
